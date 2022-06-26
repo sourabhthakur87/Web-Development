@@ -1,0 +1,264 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+main {
+    background: #2F7336;
+    background: -webkit-linear-gradient(to bottom, #AA3A38, #2F7336);
+    background: linear-gradient(to bottom, #AA3A38, #2F7336);
+}
+
+#sec1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#c1 img {
+    width: 100%;
+}
+
+
+#h {
+    margin: 20px 0px 0px 150px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 70px;
+    font-style: italic;
+    font-family: Regular 400;
+    color: rgb(155, 213, 228);
+
+}
+
+nav ul {
+    margin: 60px 40px;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    background-color: black;
+    text-decoration-color: brown;
+    border-radius: 10px
+}
+
+#fk {
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+legend {
+    font-size: 30px;
+    color: black;
+}
+
+#sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec2 .square {
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    margin: 30px;
+}
+
+
+#sec2 .square:hover {
+    margin: 50px;
+    transition: 1s;
+    transform: scale(0.5);
+    background-color: black;
+}
+
+.square img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#sec2 p {
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(222, 227, 223);
+}
+
+#d1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cir h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(237, 241, 239);
+    width: 200px;
+    height: 50px;
+}
+
+#cir {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cir .circles {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cir img {
+    border-radius: 50%;
+}
+
+footer {
+    height: 120px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+footer a:hover {
+    transform: scale(1.0);
+    transition: 1s;
+    background-color: black;
+}
+
+#d4 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+
+.fa-whatsapp {
+    text-align: center;
+    line-height: 40px;
+    margin-right: 1px;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    font-size: 20px;
+    position: fixed;
+    top: 250px;
+    right: 0;
+    color: white;
+    /* border-top-left-radius: 5px; */
+}
+
+
+.fa-youtube-play {
+    text-align: center;
+    line-height: 40px;
+    margin-right: 1px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    font-size: 20px;
+    position: fixed;
+    top: 290px;
+    right: 0;
+    color: white;
+
+}
+
+.fa-twitter-square {
+    text-align: center;
+    line-height: 40px;
+    margin-right: 1px;
+    width: 40px;
+    height: 40px;
+    background-color: #00acee;
+    font-size: 20px;
+    position: fixed;
+    top: 330px;
+    right: 0;
+    color: white;
+
+}
+
+.fa-envelope {
+    text-align: center;
+    line-height: 40px;
+    margin-right: 1px;
+    width: 40px;
+    height: 40px;
+    background-color: #2d5b6d;
+    font-size: 20px;
+    position: fixed;
+    top: 370px;
+    right: 0;
+    color: white;
+    border-bottom-left-radius: 5px;
+}
+
+.fa-youtube-play:hover,
+.fa-envelope:hover,
+.fa-twitter-square:hover,
+.fa-whatsapp:hover {
+    transform: rotateX(270deg);
+    transition: 1s;
+}
+
+div.add a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+div.add {
+    text-align: center;
+    line-height: 40px;
+    position: fixed;
+    top: 170px;
+
+    left: 1182px;
+    width: 120px;
+    height: 40px;
+    background: rgba(255, 0, 0, 0.982);
+    transform: rotate(270deg);
+    border-top-right-radius: 5px;
+
+}
+
+.add:hover {
+    transition: 1s;
+    background-color: black;
+}

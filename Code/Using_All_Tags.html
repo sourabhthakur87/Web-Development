@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--this will help to create table giving the boxes to table-->
+    <!--if border spacing is 0 then no border spacing ,automatic border spacing is there-->
+    <!---->
+    <style type="text/css">
+        table,
+        th,
+        td {
+            border: 1px solid green;
+            border-spacing: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--HTML is not a case sensitive language . HTML also ignores extra spaces-->
+    hello everyone
+    <!--we can write one line as directly-->
+    <h0>this is 0 heading</h0>
+    <!--if we use 0 or nothing then it is not wotking as heading    heading tags are from 1 to 6-->
+    <h1>this is 1 heading</h1>
+    <!--this is used to write heading in BOLD    h1 gives in bold , not only h -->
+    <h2>this is 2 heading</h2>
+    <!--priority and boldness also decreases-->
+    <p>this is paragraph</p>
+    <!--this is used to write paragraph    this tag itself contains a new line-->
+    <p>lorem30</p>
+    <!--lorem will give dummy paragraph-->
+    <a href="https://codewithharry.com/">click here to go to harry's website</a>
+    <!--anchor tag used to refer to something     we can use single and double quotes any     we can use image in place of th text i.e. click here to go to harry's website-->
+    <img src="https://www.istockphoto.com/photo/spend-more-time-exercising-and-less-time-sitting-around-gm1308677738-398592833?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhuman-anatomy&utm_term=human%20anatomy%3A%3Asearch-explore-top-affiliate-outside-feed-x-v2%3Aa"
+        alt="Human image" width="1210px">
+    <!--alt satatement is printed only if somehow the image is not printed     width attribute is used to define the size of image-->
+    <hr>
+    <!--this used to get a horizontal line that is maily used for the separation of the contents-->
+    <br>
+    <b><i>this is bold</i></b>
+    <!--this will give bold and italic at the same time-->
+    <br>
+    <i>this is italic</i>
+    <br>
+    <!--this break will give us the new line-->
+    <u>this is underline</u>
+    <br>
+    <big>this is big</big>
+    <!--this will give one size bigger text than the nowmal font size of server-->
+    <br>
+    <small>this is small</small>
+    <!--this will give one size smaller text than the nowmal font size of server-->
+    <p>CO<sub>2</sub></p>
+    <!--this tag is used to give the base power to anything-->
+    <p>aX<sup>2</sup> + bX + c</p>
+    <!--this tag is used to give the upper power to anything-->
+    <pre>heellooooww    everyone hkkj    ydghyujdc.cpomvghhbj  </pre>
+    <!--preformatted tag returns the assitise inside content-->
+    <header>this is header</header> <!-- mainly in css , header main and footer should me there in code-->
+    <main>this is main</main>
+    <!--main is the most important part of code specifies the main content of document-->
+    <footer>this is footer</footer>
+    <!--these all header , main and footer should always be in body-->
+    <div>
+        <!--div(division) is block element example-->
+        <h1>why use HTML</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem corporis assumenda ex perspiciatis
+            et id provident atque, praesentium architecto iste ducimus eligendi ullam esse iure! Quam, corrupti
+            consectetur! Repudiandae, corporis?</p>
+    </div>
+    <span style="color:blue">
+        <!--span is inline element used to mark up a part of a text, or a part of a document-->
+        i am span tag
+    </span>
+    <span style="color:red">
+        i am another span tag
+    </span>
+    <address>
+        <!--it gives the info of author like mail and contact no.-->
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    <!--info inside this is always given in output as italic and it have new line in start and end of it-->
+    <article>
+        <!--independent self contained content-->
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web
+            browser today!</p>
+    </article>
+
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF
+        works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million
+        globally.
+    </blockquote>
+    <!--specifies a section that is quoted from another source-->
+
+    <dl>
+        <!--description list-->
+        <dt>Coffee</dt>
+        <!--term or name in description list-->
+        <dd>Black hot drink</dd>
+        <!--describe a term/name in a description list-->
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+        <!--used in conjunction with <dl> (defines a description list) and <dt> (defines terms/names)-->
+    </dl>
+
+
+    <!--creating table-->
+    <!--input tag is used to take input-->
+    <hr>
+    <form>
+        Name : <input type="text" placeholder="enter ur name" name="username"><br><br>
+        <!--we can also use placeholder tag that is used to show the content insisde the box   ,  name="username " is used for the server purpose-->
+        Email : <input type="email" name="useremail"><br><br>
+        <!--if we give type as email the we should give input as email-->
+        Password : <input type="password" name="userpassword"><br><br>
+        <!--if we give type as password then the input will be shown as dot form-->
+        Mobile : <input type="tel" name="usermobile"><br><br>
+        <!--if we give type as tel then we should give input mobile number-->
+        Date Of Birth : <input type="date" name="DOB"><br><br>
+        <!--in this type the input will be taken as date as choosing from the calender-->
+        Gender: ------------------
+        Male <input type="radio" name="gender">
+        <!--if type is given as radio the radio buttons will appear to select-->
+        Female <input type="radio" name="gender">
+        <!--if we differ the name of both the gender in code then we can select more than one gender at a time-->
+        Language :------------------
+        English <input type="checkbox" name="lang">
+        <!--if type is given as checkbox then we a checkbox will appear-->
+        Hindi <input type="checkbox" name="lang"><br><br>
+
+        <input type="submit" value="SUBMIT"><br><br>
+        <!--a submit button will appear on which we only need to click-->
+    </form>
+
+
+    <hr>
+    <form action="/action_page.php">
+        <!--used to create an HTML form for user input-->
+        <fieldset>
+            <!--gives a box type to the inside input tags-->
+            <legend>Personalia:</legend>
+            <!--gives a name to the box given by fieldset tag-->
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <!--id attribute in input tag is used by label tag which enable us to clock on anywhere on that that that will enable that input method-->
+            <!--name attribute is for server purpose-->
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+
+    <figure>
+        <!--specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.-->
+        <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+        <!--defines a caption for a <figure> element-->
+    </figure>
+
+    <footer>
+        <!--typically contains: authorship information, copyright information ,contact information-->
+        <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+    <!--Contact information inside a <footer> element should go inside an <address> tag-->
+
+    <hr>
+    <p>The ol element defines an ordered list:</p>
+    <ol type="I">
+        <!--gives ordered list with numbering , if type is I then it will give in roman numbers-->
+        <li>Coffee</li>
+        <!--used to define the listed element-->
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <p>The ul element defines an unordered list:</p>
+    <ul type="square">
+        <!--gives unordered list , i type we can give circle also , without type attribute it will give radio button type circular that is called disc which is default-->
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <nav>
+        <!--defines a set of navigation links   mainly we use anchor tag in it-->
+        <a href="/html/">HTML</a>
+        <a href="/css/">CSS</a>
+        <a href="/js/">JavaScript</a>
+        <a href="/python/">Python</a>
+    </nav>
+    <!--script tag works on client based  we can write any other language code in script tag and we can also put the reference in it -->
+    <!--we can async and defer attribute with script tag in async attribute first the html file will be uplaoded then changes in script docs will be uploaded and defer     attribute is its vice varsa-->
+    <!--syntax for asyncand defer attribute is async="true"-->
+    <script>
+        document.write("Hello World!")
+    </script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <!--executed if somehow script tag is nor worked-->
+    <pre>                          <!--it preserves the spaces  ,   prints assitise-->
+        asdfghjkl           asdfghjkl oiuytfdcvbn      dgfcvhgtfdrf
+    </pre>
+
+
+    <hr>
+    <!--Creating table-->
+    <table>
+        <!--used for creating table-->
+        <tr>
+            <!--works rowwise-->
+            <th>S.No.</th>
+            <!--this will make the fir line of table as bold-->
+            <th>Item</th>
+            <th>Rate</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <!--works columnwise-->
+            <td>Mobile</td>
+            <td rowspan="2">25000</td>
+            <!--ye aur isse neeche box ek hi box m aa jaayega-->
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Charge</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Laptop</td>
+            <td>75000</td>
+        </tr>
+        <tr>
+            <!--if we do not give anything for the serial number , then that box would be left empty-->
+            <td colspan="2">Grand Total</td>
+            <!--ye aur isse pehle wala ek hi box m aa jayega-->
+            <td>100000</td>
+        </tr>
+    </table>
+
+
+    <!--to embbed a video-->
+    <video width="320" height="240" controls>
+        <!--height and width of video-->
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+
+    The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+    <!--defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".-->
+
+    <hr>
+    <p>This paragraph will go left-to-right.</p>
+    <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>
+    <!--bdo tagchanges the printing direction as dir attribute id ltr(left to right)-->
+
+    <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+    <!--defines a clickable button      , click me will be shown on the button   ,  hellow world will be shown on clicking the button-->
+    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+    <!-- defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.) -->
+
+    <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+    <!--content inside is displayed in the browser's default monospace font-->
+
+    <p>You <em>have</em> to hurry up!</p>
+    <!--used to define emphasized text-->
+    <object data="pic_trulli.jpg" width="300" height="200"></object>
+    <!--defines a container for an external resource-->
+    <strong>This text is important!</strong>
+    <!--another method of writing the content in bold-->
+
+    <textarea id="w3review" name="w3review" rows="4" cols="50">                <!--defines a multi-line text input , mainly used in form -->
+        At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+    </textarea>
+    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+    <!--used to define the time-->
+    <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is
+        the vertical height.</p>
+    <!--used to defines a variable in programming or in a mathematical expression. The content inside is typically displayed in italic-->
+
+    <select name="car" id="car">
+        <option value="no car">select ur car</option>
+        <option value="omni">omni</option>
+        <option value="omni2">omni2</option>
+        <option value="dzire">dzire</option>
+        <option value="i10">i10</option>
+        <option value="i20">i20</option>
+    </select>
+    <br>
+    <br>
+
+    <!--iframe tag is also used to embedd anything from anyother website or anysite itself-->
+
+    <input type="range" id="a" value="50">+<input type="number" id="b" value="25">=<output name="x" for="a b "></output>
+
+</body>
+
+</html>

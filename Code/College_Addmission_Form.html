@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apply this form to take addmission on my Tution">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tution_Form</title>
+</head>
+
+<body>
+    <h1>Application form for new students</h1>
+    <p>Please Fill this form to enroll your name. students only register on first come first serve basis</p>
+
+    <form action="Tution_Addmission_Form">
+        <label for="Name">Enter your name: </label><input type="text" placeholder="First name" required>
+        <input type="text" placeholder="Last name">
+        <br>
+        <label for="email">Enter your email:</label>
+        <input type="email" name="email" id="email" placeholder="123@gmail.com" required>
+        <br>
+        <label for="Phone_number">Enter your phone number:</label>
+        <input type="tel" name="Phone_number" id="Phone_number" maxlength="10">
+        <br>
+        <div>
+            <label for="DOB">Enter your date of birth</label>
+            <input type="date" name="Start" id="DOB" value="2012-12-12" min="2001-01-01" max="2031-12-12">
+            <br>
+            <label for="Claas">Enter your Class:</label>
+        </div>
+        <select name="Class" id="class">
+            <option value="0" required>Select your Class</option>
+            <option value="1">1-3 Class</option>
+            <option value="2">3-5 Class</option>
+            <option value="3">5-8 Class</option>
+            <option value="4">8-10Class</option>
+        </select>
+        <br>
+        <div>
+            <label for="Gender">
+                <input type="radio" value="1" name="Gender" id="Gender">Male
+            </label>
+            <label for="Gender2">
+                <input type="radio" value="2" name="Gender" id="Gender2">Female
+            </label>
+        </div>
+        <div>
+            <label for="Subjects">Choose your Subjects:</label>
+            <input type="checkbox" name="Subject1" id="Physics">
+            <label for="Physics">Physics</label>
+            <input type="checkbox" name="Subject2" id="Chemistry">
+            <label for="Chemistry">Chemistry</label>
+            <input type="checkbox" name="Maths" id="Maths">
+            <label for="Maths">Maths</label>
+        </div>
+        <div>
+            <p>Your teacher is very intligent in English also
+            </p>
+            <img src="Wallpaper.png" alt="My Image" width="220">
+        </div>
+        <button type="submit">Regster</button>
+    </form>
+</body>
+
+</html>

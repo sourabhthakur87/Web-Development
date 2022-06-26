@@ -1,0 +1,36 @@
+h2{
+    text-align: center;
+    margin-top: 0px;
+    color: purple;
+}
+.container{
+    margin: 20px auto;
+    width: 600px;
+    height: 470px;
+    background-color: rosybrown;
+    border: 2px solid purple;
+    border-radius: 20px;
+}
+.d1{
+    margin-bottom: 10px;
+}
+input[type="text"],input[type="password"]{
+    width: 200px;
+    height: 20px;
+    outline: 0px;
+    border-bottom-color: purple;
+    border-radius: 20px;
+}
+fieldset{
+    margin: auto;
+    width: 550px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+.d2{
+    text-align: center;
+}
+
+

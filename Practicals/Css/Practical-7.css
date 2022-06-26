@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow:5px 5px 5px gray;
+}
+
+#Header {
+    background-color: gray;
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid red; */ 
+    /* position: fixed;
+    top: 0; */
+}
+
+.banner {
+    color: white;
+    background-color: rgb(94, 160, 236);
+    width: 100%;
+    height: 100vh;
+    margin-top:25px;
+    /*viweport hight*/
+    text-align: center;
+    line-height: 100vh;
+    overflow: scroll;
+}
+#sec1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#sec1 .circles {
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec2{
+    display: flex;
+}
+
+#sec2 main {
+    width: 50%;
+    height: 500px;
+    color: white;
+
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    width: 50%;
+    height: 500px;
+    /* border: 2px solid rebeccapurple; */
+    /* display: flex;
+    flex-wrap: wrap ; */
+    margin-left: 20px;
+}
+
+aside .art{
+    color: white;
+    background-color: orange;
+    font-size: 50px;
+    width: 100%;
+    height: 160px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius:12px ;
+    border-bottom-left-radius:12px ;
+    transition: 0.5s;
+}
+aside .art:hover{
+    transform: scale(1.2);
+    background-color: cornflowerblue;
+}
+
+#sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec3 .square{
+    background-color: red;
+    width: 20%;
+    height: 290px;
+    margin: 25px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border-radius: 20px;
+    box-shadow: 5px 5px 10px gray; */
+    
+    border-radius: 10px;
+} 
+#sec3 .square:hover{
+    transition: 1s;
+    background-color: coral;
+    transform:scale(1.2) ;
+}
+
+footer {
+    background-color:pink;
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px; 
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid red; */
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./CSS/Form.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <fieldset>
+                <legend>Details:</legend>
+            <!-- Form Elements: Collect the data -->
+            <!-- Lable for outside Lable  -->
+            <!-- Placeholder for inside Hint -->
+
+
+            <h2>Student Registration</h2>
+            <div class="d1"><label>Enter First Name:</label>
+                    <input type="text" placeholder="Enter First Name">
+                </div>
+            <div class="d1"><label>Enter Last Name:</label>
+                    <input type="text" placeholder="Enter Last Name">
+                </div>
+            <div class="d1"><label>Enter Password:</label>
+                    <input type="password" placeholder="Password">
+                </div>
+            <div class="d1"><label>Gender</label>
+                    <input type="radio" name="Gender"> Male
+                    <input type="radio" name="Gender"> Female
+                </div>
+            <div class="d1"><label>Hobbies</label>
+                    <input type="checkbox" name="Hobbies"> Cricket
+                    <input type="checkbox" name="Hobbies"> Football
+                    <input type="checkbox" name="Hobbies">Palying
+                    <input type="checkbox" name="Hobbies" checked>Cooding
+                </div>
+            <div class="d1">
+                <label for="">Select city:</label>
+                    <select name="" id="">
+                        <option value="" disabled selected>Select Your city</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Palwal">Palwal</option>
+                    </select>
+                
+            </div>
+            <div>
+                <label for="">Enter Phone number:</label>
+                <input type="number" name="mobile">
+            </div>
+            <br>
+            <div>
+                <label for="">DOB:</label>
+                <input type="date" name="dob">
+            </div><br>
+            <div>
+                <label for="">Time:</label>
+                <input type="time" name="dot">
+            </div><br><br>
+            <div class="d2">
+                <!-- <button type="submit">Submit</button>
+                <button type="reset">Reset</button> -->
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

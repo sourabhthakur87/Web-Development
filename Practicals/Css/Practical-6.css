@@ -1,0 +1,51 @@
+body{
+    background-color: GRAY;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    margin: auto;
+}
+p{
+    text-align: center;
+    font-family: fantasy;
+}
+#s1{
+    display: flex;
+    text-align: justify;
+}
+#s1 .d1{
+    width: 300px;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 20px;
+   
+}
+#s1 .d1 img{
+    text-align: center;
+    width: 90%;
+    border-radius: 10px;
+    margin: 12px;
+}
+  .d1 > a{
+    display: block;
+    margin: 10px;
+    text-align: center;
+    color:white;
+    background-color: red;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px
+  }
+
+  a:hover{
+    transition: 0.5s;
+    background-color: purple;
+    transform: scale(1.1);
+  }
