@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+
+h1{font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+}
+#cases1 p{
+    margin-top: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#cases{
+    color: rgb(45, 141, 225);
+    margin-top: 30px;
+    margin-left: 450px;
+    font-size: 30px;
+}
+
+
+pre {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    margin-left: 50px;
+    font-size: 24px;
+  }
+  span {
+    color: white;
+    font-weight: bold;
+  }

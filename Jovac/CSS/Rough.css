@@ -1,32 +1,11 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-#heading{
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: gray;
-    text-align: center;   
-}
-/* .fa-info-circle
-{
-    background-color: red;
-    color: purple;
-    font-size: 50px;
-    position: fixed;
-    top: 300px;
-    right: 0;
-} */
-
-.add{
+p {
+    font-size: 35px;
     text-align: center;
- text-decoration: none;
- width: 140px;
- height: 40px;
- font-size: 30px;
- background: green;
- line-height: 40px;
- top: 200px;
- right: 0px;
- position: fixed;
+    color: purple;
+}
+
+
+
+table {
+    margin-left: 400px;
 }

@@ -1,0 +1,82 @@
+<!--  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        a{
+            animation: bouncing 0.5s ease 0s infinite alternate both;
+           background: darkblue;
+           border-radius: 50%;
+           display: inline-block;
+           color: white;
+           cursor: pointer;
+           font-size: 30px;
+           font-weight: 300;
+           letter-spacing: 0.2em;
+           padding: 1em 2em 1.1em;
+           position: relative;
+           text-decoration: none;
+           text-transform: uppercase;
+           vertical-align: top;
+           margin-top: 100px;
+
+        }
+        @keyframes bouncing {
+            0%{
+                bottom: 0;
+                box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
+            }
+
+            100%{
+                bottom: 50px;
+                box-shadow: 0 50px 50px rgba(0, 0, 0, 0.1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <select id="opt" onchange="getSelectValue();">
+       <option value="" disabled selected>Select Country</option> -->
+        <!-- <option value="India">India</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="13">Sri Lanka</option>
+        <option value="14">China</option>
+    </select>
+
+    <script>
+    function getSelectValue(){
+        var selectValue=document.getElementById("opt").value;
+        console.log(selectValue)
+    }
+    </script>
+    <a>Loading</a>
+</body>
+</html>--> 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <label for="message">Your message:</label>
+    <textarea id="message" name="message" rows="5" cols="33"></textarea>
+
+    <button id="btn">Clear value</button>
+
+    <script> 
+    const textarea = document.getElementById('message');
+        
+        const btn = document.getElementById('btn');
+        
+        btn.addEventListener('click', function handleClick() {
+          textarea.value = '';
+        });
+        </script>
+  </body>
+</html>

@@ -21,12 +21,14 @@
 //     console.log("Hii")
 // }
 
-// var arr=[1,2,3,"Hi","Hello",true,false]
+var arr=[1,2,3,"Hi","Hello",true,false,[1,2,3,4,5]]
 
-
-// for(let i=0;i<arr.length;i++){
-//     console.log(arr[i])
+console.log(arr[7][3])
+// for(let i=0;i<arr.length;i++)
+// {
+    
 // }
+
 
 // arr.pop() //Delete from last
 // arr.shift()        //Delete from starting
@@ -74,19 +76,19 @@
 
 // c=console.log(a + b)
 
-var a=parseInt(prompt("Enter the First number"));
-var b=parseInt(prompt("Enter the Second number"));
+// var a=parseInt(prompt("Enter the First number"));
+// var b=parseInt(prompt("Enter the Second number"));
 
-var sum=a+b
-var sub=a-b
+// var sum=a+b
+// var sub=a-b
 
-console.log(`The result of Addition is: ${sum}`);
-console.log(`The result of Subtraction is: ${sub}`);
+// console.log(`The result of Addition is: ${sum}`);
+// console.log(`The result of Subtraction is: ${sub}`);
 
-alert(`The result of Addition is: ${sum}`);
-alert(`The result of Subtraction is: ${sub}`);
+// alert(`The result of Addition is: ${sum}`);
+// alert(`The result of Subtraction is: ${sub}`);
 
-// var f=10;
-//      document.getElementById("res").innerHTML=f;
-document.getElementById("add").innerHTML=`The result of Addition is: ${sum}`;
-document.getElementById("sub").innerHTML=`The result of Subtraction is: ${sub}`;
+// // var f=10;
+// //      document.getElementById("res").innerHTML=f;
+// document.getElementById("add").innerHTML=`The result of Addition is: ${sum}`;
+// document.getElementById("sub").innerHTML=`The result of Subtraction is: ${sub}`;
